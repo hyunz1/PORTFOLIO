@@ -1,0 +1,98 @@
+@media all and (min-width: 750px){
+    .m{display: none;}
+    .tab{display: none;}
+    .pc{display: block;}
+
+
+#wrapper{
+    max-width: 1092px;
+    padding: unset;
+}
+header{}
+header .wrap .con .box{
+    font-size: 14px;
+}
+header .wrap{
+    padding: unset;
+}
+header .wrap .banner{
+    margin: 170px 0px;
+}
+header .wrap .banner .box1{
+    font-size: 60px;
+}
+header .wrap .banner .box2{
+    font-size: 36px;
+}
+header .wrap .banner .box3 a{
+    font-size: 16px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.my h2{
+    font-size: 20px;
+}
+.my .con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 14px;
+    padding: 20px;
+}
+.my .con div{
+    width: 300px;
+}
+.my .con .name{
+    grid-row: 1 / 3 span;
+    grid-column: 1 / 2 span;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin: 0 auto;
+    width: 150px;
+}
+.my .con .name .box{
+
+}
+.my .con .edu{
+    grid-column: 3 /4 span;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin: 0 auto;
+}
+.my .con .award{
+    grid-column: 3 / 4 span;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin: 0 auto;
+}
+.my .con .stack{
+    grid-column: 3 / 4 span;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin: 0 auto;
+}
+.my .con .stack img{
+}
+.project h2{
+    font-size: 20px;
+}
+.project .con{
+    padding: 20px;
+}
+.project .con .box .con .txt{
+    font-size: 24px;
+}
+.project .con .box .con .btns{
+    font-size: 14px;
+}
+.footer .name{
+    font-size: 30px;
+}
+}

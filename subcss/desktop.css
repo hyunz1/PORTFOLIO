@@ -1,0 +1,157 @@
+@media all and (min-width: 750px){
+    .m{display: none;}
+    .tab{display: none;}
+    .pc{display: block;}
+
+header .top{
+    font-size: 12px;
+    position: relative;
+}
+header .top h1{
+    font-size: 16px;
+}
+header .top .btn-back{
+    font-size: 14px;
+}
+header .top .btns{
+    font-size: 14px;
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    padding: 10px;
+}
+header .top .btns .btn1{
+    display: block;
+    margin-right: 10px;
+}
+header .top .btns .btn2{display: block;}
+header .top .btn-back img{display: none;}
+header .top .btn-menu{display: none;}
+header nav{display: none;}
+#wrapper{
+    min-width: 270px;
+    max-width: 1920px;
+    padding: unset;
+    width: 1092px;
+}
+.wrap .banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+.wrap .banner .pic{
+    grid-column: 2 / 4 span;
+    grid-row: 1 / 4 span;
+    padding: unset;
+    margin-bottom: 0;
+}
+.wrap .banner .pic img{
+    width: 100%;
+}
+.wrap .banner .txt1{
+    grid-row: 2;
+    text-align: left;
+}
+.wrap .banner .txt2{
+    grid-row: 4;
+}
+
+.main1{
+    padding: 30px;
+}
+.main1 .overview h2{
+    font-size: 16px;
+}
+.main1 .overview .txt{
+    text-align: center;
+    font-size: 16px;
+}
+.main1 .overview .con{}
+.main1 .overview .con .box .name{
+    font-size: 14px;
+}
+.main1 .overview .con .box .con1 .circle .box{
+    font-size: 18px;
+}
+.main1 .overview .con .box .con1 .circle .pic img{
+    width: 160px;
+}
+
+.main2{
+    padding: 30px;
+}
+.main2  .style h2{
+    font-size: 16px;
+}
+.main2  .style .concept h3{
+    font-size: 14px;
+}
+.main2  .style .concept .txt{
+    font-size: 16px;
+}
+.main2  .style .concept .con .circle .pic img{
+    width: 160px;
+}
+.main2  .style .concept .con .circle .box{
+    font-size: 18px;
+}
+
+.main2 .style .container{
+    display: flex;
+    justify-content: center;
+}
+.main2 .style .container .color{
+    width: 50%;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.main2 .style .container .color h3{
+    font-size: 14px;
+}
+.main2 .style .container .color .txt{
+    font-size: 16px;
+}
+.main2 .style .container .color .con div .pic{
+    width: 100px;
+    height: 100px;
+}
+
+.main2 .style .container .type{
+    width: 50%;
+}
+.main2 .style .container .type h3{
+    font-size: 14px;
+}
+.main2 .style .container .type .txt{
+    font-size: 16px;
+}
+.main2 .style .container .type .con .box .txt{
+    margin-bottom: 0;
+}
+.main3{
+    padding: 30px;
+}
+.main3 .into h2{
+    font-size: 16px;
+}
+.main3 .into .contant{
+    margin-bottom: 30px;
+}
+.main3 .into .contant .txt{
+    font-size: 16px;
+}
+.main3 .into .contant .txt .box:first-child{
+    font-size: 20px;
+}
+.footer{
+    padding: 40px 0px 50px;
+}
+.footer .box1{
+    font-size: 28px;
+}
+.footer .box2{
+    font-size: 20px;
+}
+
+}
