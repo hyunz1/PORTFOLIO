@@ -26,7 +26,6 @@ header .wrap .con{
 }
 header .wrap .con .box{
     font-size: 10px;
-    font-weight: bold;
 }
 header .wrap .con .box:last-child{
     margin-right: 0;
@@ -91,6 +90,9 @@ header .wrap .banner .box3 button:hover{
 }
 .my .con .stack .box{
     font-weight: bold;
+}
+.my .con .stack .box:first-child{
+    margin-bottom: 10px;
 }
 .my .con .stack .img{
     display: flex;
