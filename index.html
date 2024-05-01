@@ -73,7 +73,9 @@
                         <img src="images/teslam.jpg" alt="" class="m">
                     </div>
                     <div class="con">
-                        <div class="txt">TESLA RENEWAL WEBSITE</div>
+                        <div class="label">Responsive</div>
+                        <div class="txt">TESLA</div>
+                        <div class="txtxbox">동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</div>
                         <div class="btns">
                             <div class="btn"><a href="sub1.html">VIEW DETAIL</a></div>
                             <div class="btn"><a href="https://hyunz1.github.io/tesla/">VIEW WEBSITE</a></div>
@@ -86,7 +88,9 @@
                         <img src="images/korailm.jpg" alt="" class="m">
                     </div>
                     <div class="con">
-                        <div class="txt">KORAIL RENEWAL WEBSITE</div>
+                        <div class="label">Responsive</div>
+                        <div class="txt">KORAIL</div>
+                        <div class="txtbox">열차 승차권 조회 및 예매를 위한 렛츠코레일을 반응형 웹페이지로 리뉴얼하였습니다.</div>
                         <div class="btns">
                             <div class="btn"><a href="sub2.html">VIEW DETAIL</a></div>
                             <div class="btn"><a href="https://hyunz1.github.io/korail/">VIEW WEBSITE</a></div>
@@ -99,7 +103,9 @@
                         <img src="images/granhandm.jpg" alt="" class="m">
                     </div>
                     <div class="con">
-                        <div class="txt">GRANHAND RENEWAL WEBSITE</div>
+                        <div class="label">Responsive</div>
+                        <div class="txt">GRANHAND</div>
+                        <div class="txtbox">열차 승차권 조회 및 예매를 위한 렛츠코레일을 반응형 웹페이지로 리뉴얼하였습니다.</div>
                         <div class="btns">
                             <div class="btn"><a href="sub3.html">VIEW DETAIL</a></div>
                             <div class="btn"><a href="https://hyunz1.github.io/granhand/">VIEW WEBSITE</a></div>
@@ -115,5 +121,15 @@
         <div class="num">010-9101-6824</div>
         <div class="mail">hyunz9456@naver.com</div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        
+        $("header .banner .box3 button").on("click", function() {
+            const bodyLength = $("body").height();
+            $("html, body").stop().animate({
+                "scrollTop" : bodyLength
+            });
+        });
+    </script>
 </body>
 </html>

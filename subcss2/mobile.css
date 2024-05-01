@@ -26,7 +26,7 @@ header .top{
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: #003b82;
+    background-color: #0196db;
     color: #fff;
 }
 header .top h1{
@@ -138,7 +138,7 @@ header nav .gnb .sub li:first-child{
     display: inline-block;
 }
 .wrap .banner .txt1 span{
-    color: #003b82;
+    color: #0196db;
 }
 .wrap .banner .txt2{
     font-size: 12px;
@@ -155,7 +155,7 @@ header nav .gnb .sub li:first-child{
     padding: 20px;
 }
 .main1 .overview h2{
-    color: #003b82;
+    color: #0196db;
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -163,8 +163,9 @@ header nav .gnb .sub li:first-child{
 .main1 .overview .txt{
     text-align: center;
     font-size: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #979797;
+    padding: 0px 10px 10px 10px;
 }
 .main1 .overview .con .box{
     display: flex;
@@ -212,11 +213,11 @@ header nav .gnb .sub li:first-child{
 .main2 .style h2{
     margin-bottom: 10px;
     font-size: 14px;
-    color: #003b82;
+    color: #0196db;
 }
 .main2 .style .concept{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .main2 .style .concept h3{
     font-size: 12px;
@@ -226,7 +227,7 @@ header nav .gnb .sub li:first-child{
     font-size: 12px;
     text-align: center;
     color: #979797;
-    margin-bottom: 10px;
+    padding: 0px 10px 10px 10px;
 }
 .main2 .style .concept .con{
     display: flex;
@@ -252,7 +253,7 @@ header nav .gnb .sub li:first-child{
 
 .main2 .style  .container .color{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .main2 .style .container .color h3{
     font-size: 12px;
@@ -262,7 +263,7 @@ header nav .gnb .sub li:first-child{
     font-size: 12px;
     text-align: center;
     color: #979797;
-    margin-bottom: 10px;
+    padding: 0px 10px 10px 10px;
 }
 .main2 .style .container .color .con{
     display: flex;
@@ -284,16 +285,16 @@ header nav .gnb .sub li:first-child{
     background-color: #000;
 }
 .main2 .style .container .color .con div .pic{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 .main2 .style .container .color .con div .txt{
     color: #000;
     margin-bottom: 0;
+    padding: 0;
 }
 .main2 .style .container .type{
     text-align: center;
-    margin-bottom: 10px;
 }
 .main2 .style .container .type h3{
     font-size: 14px;
@@ -303,7 +304,7 @@ header nav .gnb .sub li:first-child{
     font-size: 12px;
     text-align: center;
     color: #979797;
-    margin-bottom: 10px;
+    padding: 0px 10px 10px 10px;
 }
 .main2 .style .container .type .con .box{
     display: flex;
@@ -315,17 +316,18 @@ header nav .gnb .sub li:first-child{
 }
 .main2 .style .container .type .con .box .txt{
     color: #000;
+    padding: 0;
 }
 .main3{
     padding: 20px;
 }
 .main3 .into h2{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 14px;
-    color: #003b82;
+    color: #0196db;
 }
 .main3 .into .contant{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .main3 .into .contant .pics .box1{
     display: flex;
@@ -356,7 +358,7 @@ header nav .gnb .sub li:first-child{
     width: 100%;
 }
 .footer{
-    background-color: #003b82;
+    background-color: #0196db;
     width: 100%;
     color: #fff;
     display: flex;

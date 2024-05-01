@@ -98,11 +98,20 @@ header .wrap .banner .box3 a{
 .project .con .box .con{
     padding: 20px;
 }
+.project .con .box .con .txt ~ div{
+    font-size: 18px;
+}
 .project .con .box .con .txt{
     font-size: 24px;
 }
 .project .con .box .con .btns{
     font-size: 14px;
+}
+.project .con .box .con .btns .btn{
+    width: unset;
+}
+.project .con .box .con .btns div a{
+    padding: 10px 20px;
 }
 .footer .name{
     font-size: 30px;

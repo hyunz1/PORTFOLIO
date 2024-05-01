@@ -30,6 +30,7 @@ header .top .btn-back img{display: none;}
 header .top .btn-menu{display: none;}
 header nav{display: none;}
 #wrapper{
+    min-width: 270px;
     max-width: 1920px;
     padding: unset;
     width: 1092px;
@@ -37,7 +38,7 @@ header nav{display: none;}
 .wrap .banner{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 30px;
+    padding: 40px;
 }
 .wrap .banner .pic{
     grid-column: 2 / 4 span;
@@ -57,14 +58,16 @@ header nav{display: none;}
 }
 
 .main1{
-    padding: 30px;
+    padding: 40px;
 }
 .main1 .overview h2{
     font-size: 16px;
+    margin-bottom: 20px;
 }
 .main1 .overview .txt{
     text-align: center;
     font-size: 16px;
+    padding: 0px 20px 20px;
 }
 .main1 .overview .con{}
 .main1 .overview .con .box .name{
@@ -82,12 +85,17 @@ header nav{display: none;}
 }
 .main2  .style h2{
     font-size: 16px;
+    margin-bottom: 20px;
+}
+.main2  .style .concept{
+    margin-bottom: 40px;
 }
 .main2  .style .concept h3{
     font-size: 14px;
 }
 .main2  .style .concept .txt{
     font-size: 16px;
+    padding: 0px 20px 20px;
 }
 .main2  .style .concept .con .circle .pic img{
     width: 160px;
@@ -110,6 +118,10 @@ header nav{display: none;}
 }
 .main2 .style .container .color .txt{
     font-size: 16px;
+    padding: 0px 20px 20px;
+}
+.main2 .style .container .color .con .box .txt{
+    padding: 0;
 }
 .main2 .style .container .color .con div .pic{
     width: 100px;
@@ -124,9 +136,11 @@ header nav{display: none;}
 }
 .main2 .style .container .type .txt{
     font-size: 16px;
+    padding: 0px 20px 20px;
 }
 .main2 .style .container .type .con .box .txt{
     margin-bottom: 0;
+    padding: 0;
 }
 .main3{
     padding: 30px;
@@ -135,13 +149,16 @@ header nav{display: none;}
     font-size: 16px;
 }
 .main3 .into .contant{
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 .main3 .into .contant .txt{
     font-size: 16px;
 }
+.main3 .into .contant .pics{
+    margin-top: 10px;
+}
 .main3 .into .contant .txt .box:first-child{
-    font-size: 20px;
+    font-size: 22px;
 }
 .footer{
     padding: 40px 0px 50px;
