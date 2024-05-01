@@ -31,12 +31,15 @@ header .wrap .banner .box3 a{
 }
 .my h2{
     font-size: 20px;
+    margin-bottom: 20px;
+}
+.my{
+    margin-bottom: 30px;
 }
 .my .con{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-size: 14px;
-    padding: 20px;
 }
 .my .con div{
     width: 300px;
@@ -51,16 +54,17 @@ header .wrap .banner .box3 a{
     margin: 0 auto;
     width: 150px;
 }
-.my .con .name .box{
-
-}
 .my .con .edu{
     grid-column: 3 /4 span;
     display: flex;
     flex-direction: column;
     text-align: left;
     justify-content: center;
+    margin-bottom: 20px;
     margin: 0 auto;
+}
+.my .con .edu .box:last-child{
+    margin-bottom: 30px;
 }
 .my .con .award{
     grid-column: 3 / 4 span;
@@ -70,6 +74,9 @@ header .wrap .banner .box3 a{
     justify-content: center;
     margin: 0 auto;
 }
+.my .con .award .box:last-child{
+    margin-bottom: 30px;
+}
 .my .con .stack{
     grid-column: 3 / 4 span;
     display: flex;
@@ -78,12 +85,17 @@ header .wrap .banner .box3 a{
     justify-content: center;
     margin: 0 auto;
 }
-.my .con .stack img{
+.my .con .stack .box:first-child{
+    margin-bottom: 10px;
+}
+.project{
+    margin-bottom: 30px;
 }
 .project h2{
     font-size: 20px;
+    margin-bottom: 20px;
 }
-.project .con{
+.project .con .box .con{
     padding: 20px;
 }
 .project .con .box .con .txt{

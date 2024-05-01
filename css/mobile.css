@@ -51,17 +51,18 @@ header .wrap .banner .box3 button{
     border: 1px solid #000;
     padding: 10px;
     font-weight: bold;
+    border-radius: 4px;
+}
+.my{
+    margin-bottom: 20px;
+    padding: 10px;
 }
 .my h2{
     font-size: 16px;
     margin-bottom: 10px;
 }
-.my .con{
-    padding: 10px;
-    margin-bottom: 10px;
-}
 .my .con .name{
-
+    margin-bottom: 20px;
 }
 .my .con .name .box:first-child{
     font-weight: bold;
@@ -70,22 +71,21 @@ header .wrap .banner .box3 button{
 .my .con .name .box{
     font-weight: normal;
 }
+.my .con .edu{
+    margin-bottom: 20px;
+}
 .my .con .edu .box:first-child{
-    margin: 10px 0px;
     font-weight: bold;
-
+    margin-bottom: 10px;
 }
-.my .con .edu .box span{
-    
-}
-.my .con .edu .box{}
 .my .con .award .box:first-child{
-    margin: 10px 0px;
+    margin-bottom: 10px;
     font-weight: bold;
 }
-.my .con .award .box{}
+.my .con .award{
+    margin-bottom: 20px;
+}
 .my .con .stack .box{
-    margin: 10px 0px;
     font-weight: bold;
 }
 .my .con .stack .img{
@@ -93,25 +93,28 @@ header .wrap .banner .box3 button{
 }
 .my .con .stack .img .box{
     margin-right: 5px;
+    margin-bottom: 0;
 }
-.project{}
+.project{
+    padding: 10px;
+    margin-bottom: 20px;
+}
 .project h2{
     font-size: 16px;
     margin-bottom: 10px;
-}
-.project .con{
-    padding: 10px;
 }
 .project .con .box{
     position: relative;
 }
 .project .con .box .pic img{
     width: 100%;
+    border-radius: 8px;
 }
 .project .con .box .con{
     position: absolute;
     bottom: 0;
     font-weight: bold;
+    padding: 10px;
 }
 .project .con .box .con .txt{
     font-size: 20px;
@@ -127,6 +130,7 @@ header .wrap .banner .box3 button{
 .project .con .box .con .btns .btn{
     border: 1px solid #fff;
     margin-right: 10px;
+    border-radius: 4px;
 }
 .project .con .box .con .btns div a{
     display: block;
@@ -136,6 +140,7 @@ header .wrap .banner .box3 button{
     background-color: #fff;
     color: #000;
     display: block;
+    border-radius: 4px;
 }
 .project .con .box:first-child{
     margin-bottom: 10px;
