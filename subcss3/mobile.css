@@ -167,12 +167,18 @@ header nav .gnb .sub li:first-child{
     color: #979797;
     padding: 0px 10px 10px 10px;
 }
+.main1 .overview .con{
+    display: flex;
+    justify-content: center;
+}
 .main1 .overview .con .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+}
+.main1 .overview .con .box:first-child{
+    margin-right: 20px;
 }
 .main1 .overview .con .box:last-child{
     margin-bottom: 0;
@@ -186,11 +192,6 @@ header nav .gnb .sub li:first-child{
 }
 .main1 .overview .con .box .con1 .circle{
     position: relative;
-    margin-right: -10px;
-
-}
-.main1 .overview .con .box .con1 .circle:last-child{
-    margin-right: 0;
 }
 .main1 .overview .con .box .con1 .circle .pic img{
     width: 100%;
